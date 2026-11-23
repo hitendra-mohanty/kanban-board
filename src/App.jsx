@@ -167,7 +167,7 @@ function App() {
     <div className={`app ${darkMode ? "dark" : ""}`}>
       <header className="navbar">
         <div className="brand">
-          <span className="brand-icon">▦</span>
+          <span className="brand-icon"></span>
           <h2>TaskFlow</h2>
         </div>
 
