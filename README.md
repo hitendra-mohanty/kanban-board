@@ -1,16 +1,35 @@
-# React + Vite
+TaskFlow – React Kanban Board
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Kanban Board application built with React.js and Vite to help users organize tasks, manage workflows, and track project progress. It provides an intuitive drag-and-drop interface with customizable task labels and light/dark theme support.
 
-Currently, two official plugins are available:
+✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Drag and Drop: Easily move task cards between To Do, In Progress, and Done columns.
 
-## React Compiler
+Task Management: Create, edit, and delete tasks.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Task Descriptions: Add descriptions to provide more context to individual tasks.
 
-## Expanding the ESLint configuration
+Colored Labels: Categorize tasks using labels such as Design, Bug, Feature, Improvement, and Urgent.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Dark Mode: Switch between light and dark themes.
+
+Task Counters: Automatically track the number of tasks in each column and display the total task count.
+
+Responsive Design: Optimized layout for desktop, tablet, and mobile screens.
+
+🛠️ Tech Stack
+
+React.js – Component-based UI development.
+
+JavaScript (ES6+) – Application logic and functionality.
+
+CSS3 – Styling, responsive layouts, and dark mode.
+
+HTML5 Drag and Drop API – Native drag-and-drop functionality.
+
+Vite – Development server and build tool.
+
+📌 Current Limitations
+
+Task data and theme preferences are currently managed through React state and are not persisted after a browser refresh. The application does not currently include backend integration or user authentication.
