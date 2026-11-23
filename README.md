@@ -29,3 +29,7 @@ CSS3 – Styling, responsive layouts, and dark mode.
 HTML5 Drag and Drop API – Native drag-and-drop functionality.
 
 Vite – Development server and build tool.
+
+📌 Current Limitations
+
+Task data and theme preferences are currently managed through React state and are not persisted after a browser refresh. The application does not currently include backend integration or user authentication.
